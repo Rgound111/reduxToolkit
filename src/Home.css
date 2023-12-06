@@ -1,0 +1,36 @@
+.Main_container li {
+    list-style: none;
+    font-size: 0.75rem;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.Main_container{
+  margin-bottom: 1rem;
+}
+
+.sub_container {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 300px;
+    width: 300px;
+}
+
+.sub_container span {
+    padding: 0 7.5rem;
+    font-weight: bold;
+}
+
+.Image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border: 1px solid black;
+    transition: transform 0.3s ease-in-out;
+    overflow:auto;
+}
+
+.Image:hover{
+   overflow: hidden;
+   transform: scale(1.1); 
+}
